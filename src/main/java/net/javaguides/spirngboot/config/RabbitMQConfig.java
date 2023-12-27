@@ -33,6 +33,7 @@ public class RabbitMQConfig {
         return new TopicExchange(exchange);
     }
 
+    //test
     /**
      * binding between queue and exchange using routing key
      * @return
