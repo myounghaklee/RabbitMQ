@@ -17,7 +17,7 @@ public class RabbitMQJsonProducer {
     @Value("${rabbitmq.exchange.name}")
     private String exchange;
 
-    @Value("${rabbitmq.routing.json.name}")
+    @Value("${rabbitmq.routing.json.key}")
     private String routingJsonKey;
 
 

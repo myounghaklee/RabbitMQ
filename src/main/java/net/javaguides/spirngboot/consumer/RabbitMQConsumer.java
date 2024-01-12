@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class RabbitMQConsumer {
 
-    @RabbitListener(queues = {"$r{rabbitmq.queue.name"})
+    @RabbitListener(queues = {"${rabbitmq.queue.name}"})
     public void consume(String message){
         log.info("Received Message -> {}", message);
 
